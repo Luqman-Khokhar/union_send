@@ -12,37 +12,37 @@ import Pic4 from '../images/Ellipse 4.png';
 import Rectangle from '../images/Rectangle 1.png';
 const HomePage = () => {
   return (
-    <div className=' px-20 py-20'>
+    <div className=' px-2 py-5 md:py-20 md:px-5 sm:px-2 sm:py-10'>
 
         {/* MENU BAR STARTS */}
-    <div className='flex flex-row flex-1 justify-around items-center px-16 '>
-      <img src={Logo} alt='logo' className='flex-none w-80 ' />
+    <div className='flex flex-row flex-1 justify-around items-center px-8 md:px-16  '>
+      <img src={Logo} alt='logo' className='flex-none w-32 lg:w-80 sm:w-32 md:w-60 ' />
       <div className='flex-grow' />
       <div className='flex-none bg-[#2097fb] rounded-full p-2'>
-      <TiThMenu className='text-white text-5xl' />
+      <TiThMenu className='text-white lg:text-5xl md:text-3xl text-md' />
     </div>
       </div>
         {/* MENU BAR ENDS */}
 
      {/* CONVERT SECTION STARTS */}
-<div className='flex flex-col justify-center items-center my-24 px-[315px] gap-10'>
+<div className='flex flex-col justify-center items-center my-24 px-[20px] md:gap-8 gap-10 md:px-16 lg:px-[100px] sm:px-20'>
 
-    <div className=''>
- <h1 className='text-8xl text-white font-bold  '>
+    <div className=' text-white font-bold text-3xl sm:text-6xl lg:text-8xl'>
+ <h1 className=' '>
  Convert and 
  </h1>
- <h1 className='text-8xl text-white font-bold  '> Send money
+ <h1 className=' '> Send money
  </h1>
     </div>
 
-<p className='text-[#F3F3F399] px-30 text-4xl'>Quickly and easily send, receive and request money online with UnionSend. Over 180 Countries adn 120 currencies Supported</p>
+<p className='text-[#F3F3F399] px-2 text-xl sm:px-30 sm:text-4xl '>Quickly and easily send, receive and request money online with UnionSend. Over 180 Countries adn 120 currencies Supported</p>
 
-<div className=' flex flex-col text-4xl gap-8 mt-16'>
-<button className="px-6 py-6 min-w-[120px] text-center  text-white bg-[#2097FB] border border-[#2097FB] rounded active:text-[#2097FB]-500 hover:bg-transparent hover:text-[#2097FB] focus:outline-none focus:ring">
+<div className=' flex flex-col text-2xl lg:text-4xl sm:text-2xl gap-8 mt-3 sm:mt-16'>
+<button className=" px-3 py-3  md:px-6 md:py-6 min-w-[120px] text-center   text-white bg-[#2097FB] border border-[#2097FB] rounded active:text-[#2097FB]-500 hover:bg-transparent hover:text-[#2097FB] focus:outline-none focus:ring">
 Exchange Rate
   </button> 
-  <button className="flex justify-center item-center gap-2 px-6 py-6 min-w-[120px] text-center text-white border border-white rounded active:text-[#2097FB]-500 hover:bg-transparent hover:text-[#2097FB] focus:outline-none focus:ring">
-   <FaPlay className='text-white'/>
+  <button className="flex justify-center  sm:text-2xl item-center gap-2 px-3 py-3 md:px-6 md:py-6 min-w-[120px] text-center  text-white border border-white rounded active:text-[#2097FB]-500 hover:bg-transparent hover:text-[#2097FB] focus:outline-none focus:ring">
+   <FaPlay className='text-white text-xl mt-2'/>
   See How it Works
 </button>   
 </div> 
@@ -50,44 +50,44 @@ Exchange Rate
     {/* CONVERT SECTION ENDS */}
 
    {/* PRO CONS SECTION STARTS  */}
-<div className='flex flex-1 flex-col my-32 ml-20 gap-14'>
+<div className='flex flex-1 flex-col my-24 md:my-32 ml-5 md:ml-20 gap-5 md:gap-14'>
 
-<div className='flex flex-row items-center text-start gap-10'>
-<img src={Pic1} alt='logo' className='w-[200px] h-auto' />
-< div className="flex flex-col gap-6 ">
+<div className='flex flex-row items-center text-start gap-4 md:gap-10'>
+<img src={Pic1} alt='logo' className='w-[70px]   md:w-[200px] h-auto' />
+< div className="flex flex-col gap-1 md:gap-6 ">
     
-        <h1 className='text-white text-5xl'>Why choose unionsend</h1>
-        <p className='text-[#F3F3F399] text-4xl'>Top 4 reasons to use unionsend</p>
+        <h1 className='text-white text-lg md:text-5xl'>Why choose unionsend</h1>
+        <p className='text-[#F3F3F399] text-lg md:text-4xl'>Top 4 reasons to use unionsend</p>
     
     </div>
 </div>
 
-<div className='flex flex-row items-center text-start gap-10'>
-<img src={Pic2} alt='logo' className='w-[200px] h-auto' />
-<div className="flex flex-col gap-6 ">
+<div className='flex flex-row items-center text-start gap-4 md:gap-10'>
+<img src={Pic2} alt='logo' className='w-[70px]   md:w-[200px] h-auto' />
+< div className="flex flex-col gap-1 md:gap-6 ">
     
-        <h1 className='text-white text-5xl'>What you can do with union send</h1>
-        <p className='text-[#F3F3F399] text-4xl'>Check out what you can do with unionsend</p>
+<h1 className='text-white text-lg md:text-5xl'>What you can do with union send</h1>
+<p className='text-[#F3F3F399] text-lg md:text-4xl'>Check out what you can do with unionsend</p>
 
     </div>
 </div>
 
-<div className='flex flex-row items-center text-start gap-10'>
-<img src={Pic3} alt='logo' className='w-[200px] h-auto' />
-<div className="flex flex-col gap-6 ">
+<div className='flex flex-row items-center text-start gap-4 md:gap-10'>
+<img src={Pic3} alt='logo' className='w-[70px]   md:w-[200px] h-auto' />
+< div className="flex flex-col gap-1 md:gap-6 ">
   
-        <h1 className='text-white text-5xl'>What people are saying about unionsend</h1>
-        <p className='text-[#F3F3F399] text-4xl'>A payments experience people love a talk about</p>
+<h1 className='text-white text-lg md:text-5xl'>What people are saying about unionsend</h1>
+<p className='text-[#F3F3F399] text-lg md:text-4xl'>A payments experience people love a talk about</p>
 
     </div>
 </div>
 
-<div className='flex flex-row items-center text-start gap-10'>
-<img src={Pic4} alt='logo' className='w-[200px] h-auto' />
-<div className="flex flex-col gap-6 ">
+<div className='flex flex-row items-center text-start gap-4 md:gap-10'>
+<img src={Pic4} alt='logo' className='w-[70px]   md:w-[200px] h-auto' />
+< div className="flex flex-col gap-1 md:gap-6 ">
     
-        <h1 className='text-white text-5xl'>Payment Solutions for everyone</h1>
-        <p className='text-[#F3F3F399] text-4xl'>Pay online withease</p>
+<h1 className='text-white text-lg md:text-5xl'>Payment Solutions for everyone</h1>
+<p className='text-[#F3F3F399] text-lg md:text-4xl'>Pay online withease</p>
    
     </div>
 </div>
@@ -98,11 +98,11 @@ Exchange Rate
  {/* PRO CONS SECTION ENDS */}
 
 {/* SOCIAL SECTION STARTS */}
-<div className='flex flex-row flex-1 text-white gap-16 ml-20'>
-      <img src={Rectangle} alt='rectangle' className='w-[550px] h-auto' />
-      <div className="flex flex-col justify-start items-start h-screen text-7xl font-semibold gap-16 font-sans pl-8">
+<div className='flex flex-row flex-1 text-white ml-5 md:gap-16 md:ml-20 md:my-30 '>
+      <img src={Rectangle} alt='rectangle' className='xl:w-[550px] lg:w-96 sm:w-60 w-32  lg:h-auto sm:h-96 h-52' />
+      <div className="flex flex-col justify-start items-start h-screen lg:text-7xl sm:text-4xl text-xl text-left font-semibold md:gap-16 gap-5 font-sans pl-5">
         <h1 className=''>Stay in Touch</h1>
-        <div className="flex flex-row gap-20 text-8xl">
+        <div className="flex flex-row lg:gap-20 sm:gap-10 gap-3 lg:text-8xl sm:text-5xl text-2xl">
           <FaTwitter />
           <RiInstagramFill />
           <MdMessage />
@@ -114,7 +114,7 @@ Exchange Rate
 {/* SOCIAL SECTION ENDS */}
 
 {/* LICSENSE SECTION STARTS */}
-<div className="flex-col  text-left my-20  text-4xl space-y-10 mr-60 ml-20">
+<div className="flex-col  text-left  md:my-20 mt-[-270px] text-xl md:text-4xl space-y-5 lg:mr-60 ml-3 md:ml-20 mr-2">
 
 <p className='text-[#F3F3F399]'>@2024 unionsend inc.</p>
 <p className='text-[#F3F3F399] leading-[2]'>
@@ -125,9 +125,9 @@ Exchange Rate
 {/* LICSENSE SECTION ENDS */}
 
 
-<button className="px-24 py-8 mt-24 mb-10  min-w-[120px] rounded-2xl text-center text-white bg-[#2097FB] border border-[#2097FB]  active:text-[#2097FB]-500 hover:bg-transparent hover:text-[#2097FB] focus:outline-none focus:ring">
-<h1 className='text-6xl'>Download</h1>
-<h1 className='text-6xl'>UnionSend</h1>
+<button className="md:px-24 md:py-8 md:mt-24 md:mb-10 px-10 py-4 my-16  min-w-[120px] rounded-2xl text-center text-white bg-[#2097FB] border border-[#2097FB]  active:text-[#2097FB]-500 hover:bg-transparent hover:text-[#2097FB] focus:outline-none focus:ring">
+<h1 className='text-2xl md:text-6xl'>Download</h1>
+<h1 className='text-2xl md:text-6xl'>UnionSend</h1>
   </button>
     </div>
   );
