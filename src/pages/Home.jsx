@@ -10,24 +10,30 @@ import Pic2 from '../images/Ellipse 2.png';
 import Pic3 from '../images/Ellipse 3.png';
 import Pic4 from '../images/Ellipse 4.png';
 import Rectangle from '../images/Rectangle 1.png';
+import BG from '../images/background.png';
 const HomePage = () => {
   return (
-    <div className=' px-2 py-5 md:py-20 md:px-5 sm:px-2 sm:py-10'>
+
+    <div className='relative'>
+
+    {/* Background Image */}
+    <img src={BG} alt='background' className='absolute top-80 left-0  z-0 ' />
+    <div className=' px-2 py-5 md:py-10 md:px-5 sm:px-2 sm:py-10 relative z-10'>
 
         {/* MENU BAR STARTS */}
-    <div className='flex flex-row flex-1 justify-around items-center px-8 md:px-16  '>
+    <div className='flex flex-row flex-1 justify-around items-center px-8 md:px-16 lg:px-24 lg:my-5 '>
       <img src={Logo} alt='logo' className='flex-none w-32 lg:w-80 sm:w-32 md:w-60 ' />
       <div className='flex-grow' />
       <div className='flex-none bg-[#2097fb] rounded-full p-2'>
-      <TiThMenu className='text-white lg:text-5xl md:text-3xl text-md' />
+      <TiThMenu className='text-white lg:text-4xl md:text-3xl text-md' />
     </div>
       </div>
         {/* MENU BAR ENDS */}
 
      {/* CONVERT SECTION STARTS */}
-<div className='flex flex-col justify-center items-center my-24 px-[20px] md:gap-8 gap-10 md:px-16 lg:px-[100px] sm:px-20'>
+<div className='flex flex-col justify-center items-center my-24 px-[20px] md:gap-10 gap-10 md:px-16 xl:px-[190px] lg:px-[100px] sm:px-20'>
 
-    <div className=' text-white font-bold text-3xl sm:text-6xl lg:text-8xl'>
+    <div className=' text-white  text-3xl sm:text-6xl lg:text-8xl xl:text-9xl righteous-regular'>
  <h1 className=' '>
  Convert and 
  </h1>
@@ -35,7 +41,7 @@ const HomePage = () => {
  </h1>
     </div>
 
-<p className='text-[#F3F3F399] px-2 text-xl sm:px-30 sm:text-4xl '>Quickly and easily send, receive and request money online with UnionSend. Over 180 Countries adn 120 currencies Supported</p>
+<p className='text-[#F3F3F399] px-2 text-xl sm:px-30 sm:text-4xl xl:text-5xl '>Quickly and easily send, receive and request money online with UnionSend. Over 180 Countries adn 120 currencies Supported</p>
 
 <div className=' flex flex-col text-2xl lg:text-4xl sm:text-2xl gap-8 mt-3 sm:mt-16'>
 <button className=" px-3 py-3  md:px-6 md:py-6 min-w-[120px] text-center   text-white bg-[#2097FB] border border-[#2097FB] rounded active:text-[#2097FB]-500 hover:bg-transparent hover:text-[#2097FB] focus:outline-none focus:ring">
@@ -98,11 +104,11 @@ Exchange Rate
  {/* PRO CONS SECTION ENDS */}
 
 {/* SOCIAL SECTION STARTS */}
-<div className='flex flex-row flex-1 text-white ml-5 md:gap-16 md:ml-20 md:my-30 '>
+<div className='flex flex-row flex-1 text-white ml-5 md:gap-16 md:ml-20 md:mt-30 '>
       <img src={Rectangle} alt='rectangle' className='xl:w-[550px] lg:w-96 sm:w-60 w-32  lg:h-auto sm:h-96 h-52' />
-      <div className="flex flex-col justify-start items-start h-screen lg:text-7xl sm:text-4xl text-xl text-left font-semibold md:gap-16 gap-5 font-sans pl-5">
+      <div className="flex flex-col justify-start items-start h-screen xl:text-7xl lg:text-5xl sm:text-4xl text-xl text-left font-semibold md:gap-16 gap-5 font-sans pl-5">
         <h1 className=''>Stay in Touch</h1>
-        <div className="flex flex-row lg:gap-20 sm:gap-10 gap-3 lg:text-8xl sm:text-5xl text-2xl">
+        <div className="flex flex-row xl:gap-20 lg:gap-12 sm:gap-10 gap-3 xl:text-7xl lg:text-5xl sm:text-5xl text-2xl">
           <FaTwitter />
           <RiInstagramFill />
           <MdMessage />
@@ -129,6 +135,7 @@ Exchange Rate
 <h1 className='text-2xl md:text-6xl'>Download</h1>
 <h1 className='text-2xl md:text-6xl'>UnionSend</h1>
   </button>
+    </div>
     </div>
   );
 };
