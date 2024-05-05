@@ -120,7 +120,7 @@ Exchange Rate
 {/* SOCIAL SECTION ENDS */}
 
 {/* LICSENSE SECTION STARTS */}
-<div className="flex-col  text-left  md:my-20 my-5 mt-[-550px] text-xl md:text-4xl space-y-5 lg:mr-60 ml-3 md:ml-20 mr-2">
+<div className="flex-col  text-left  md:my-20 my-5 mt-[-400px] text-xl md:text-4xl space-y-5 lg:mr-60 ml-3 md:ml-20 mr-2">
 
 <p className='text-[#F3F3F399]'>@2024 unionsend inc.</p>
 <p className='text-[#F3F3F399] leading-[2]'>
