@@ -104,11 +104,11 @@ Exchange Rate
  {/* PRO CONS SECTION ENDS */}
 
 {/* SOCIAL SECTION STARTS */}
-<div className='flex flex-row flex-1 text-white ml-5 md:gap-16 md:ml-20 md:mt-30  '>
-      <img src={Rectangle} loading="eager" alt='rectangle' className='xl:w-[550px] lg:w-96 sm:w-60 w-36   lg:h-auto sm:h-96 h-64' />
-      <div className="flex flex-col justify-start items-start h-screen xl:text-7xl lg:text-5xl sm:text-4xl text-md text-left font-semibold md:gap-16 gap-5 font-sans pl-5">
+<div className='flex flex-row flex-1 text-white ml-5 md:gap-16 md:ml-20 md:mt-30 '>
+      <img src={Rectangle} loading="eager" alt='rectangle' className='xl:w-[550px] lg:w-96 sm:w-60 w-36    lg:h-auto sm:h-96 h-80' />
+      <div className="flex flex-col justify-start items-start h-screen xl:text-7xl lg:text-5xl sm:text-4xl text-center text-3xl md:text-left font-semibold md:gap-16 gap-8 font-sans pl-5">
         <h1 className=''>Stay in Touch</h1>
-        <div className="flex flex-row xl:gap-20 lg:gap-12 sm:gap-10 gap-3 xl:text-7xl lg:text-5xl sm:text-5xl text-2xl">
+        <div className="flex flex-row xl:gap-20 lg:gap-12 sm:gap-10 gap-3 xl:text-7xl lg:text-5xl sm:text-5xl text-3xl sm:pl-0 pl-6 ">
           <FaTwitter />
           <RiInstagramFill />
           <MdMessage />
@@ -120,7 +120,7 @@ Exchange Rate
 {/* SOCIAL SECTION ENDS */}
 
 {/* LICSENSE SECTION STARTS */}
-<div className="flex-col  text-left  md:my-20 my-5 mt-[-400px] text-xl md:text-4xl space-y-5 lg:mr-60 ml-3 md:ml-20 mr-2">
+<div className="flex-col  text-left  md:my-20 my-10 mt-[-300px] text-xl md:text-4xl space-y-5 lg:mr-60 ml-3 md:ml-20 mr-2">
 
 <p className='text-[#F3F3F399]'>@2024 unionsend inc.</p>
 <p className='text-[#F3F3F399] leading-[2]'>
