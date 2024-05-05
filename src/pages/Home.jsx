@@ -56,44 +56,44 @@ Exchange Rate
     {/* CONVERT SECTION ENDS */}
 
    {/* PRO CONS SECTION STARTS  */}
-<div className='flex flex-1 flex-col my-32 md:my-32 ml-5 md:ml-20 gap-5 md:gap-14'>
+<div className='flex flex-1 flex-col my-32 md:my-32 px-2 md:ml-20 gap-12 md:gap-14'>
 
 <div className='flex flex-row items-center text-start gap-4 md:gap-10'>
-<img src={Pic1} alt='logo' className='w-[70px]   md:w-[200px] h-auto' />
+<img src={Pic1} alt='logo' className='w-[80px]   md:w-[200px] h-auto' />
 < div className="flex flex-col gap-1 md:gap-6 ">
     
-        <h1 className='text-white text-lg md:text-5xl'>Why choose unionsend</h1>
-        <p className='text-[#F3F3F399] text-lg md:text-4xl'>Top 4 reasons to use unionsend</p>
+        <h1 className='text-white text-md md:text-5xl'>Why choose unionsend</h1>
+        <p className='text-[#F3F3F399] text-sm md:text-4xl'>Top 4 reasons to use unionsend</p>
     
     </div>
 </div>
 
 <div className='flex flex-row items-center text-start gap-4 md:gap-10'>
-<img src={Pic2} alt='logo' className='w-[70px]   md:w-[200px] h-auto' />
+<img src={Pic2} alt='logo' className='w-[80px]   md:w-[200px] h-auto' />
 < div className="flex flex-col gap-1 md:gap-6 ">
     
-<h1 className='text-white text-lg md:text-5xl'>What you can do with union send</h1>
-<p className='text-[#F3F3F399] text-lg md:text-4xl'>Check out what you can do with unionsend</p>
+<h1 className='text-white text-md md:text-5xl'>What you can do with union send</h1>
+<p className='text-[#F3F3F399] text-md md:text-4xl'>Check out what you can do with unionsend</p>
 
     </div>
 </div>
 
 <div className='flex flex-row items-center text-start gap-4 md:gap-10'>
-<img src={Pic3} alt='logo' className='w-[70px]   md:w-[200px] h-auto' />
+<img src={Pic3} alt='logo' className='w-[80px]   md:w-[200px] h-auto' />
 < div className="flex flex-col gap-1 md:gap-6 ">
   
-<h1 className='text-white text-lg md:text-5xl'>What people are saying about unionsend</h1>
-<p className='text-[#F3F3F399] text-lg md:text-4xl'>A payments experience people love a talk about</p>
+<h1 className='text-white text-md md:text-5xl'>What people are saying about unionsend</h1>
+<p className='text-[#F3F3F399] text-md md:text-4xl'>A payments experience people love a talk about</p>
 
     </div>
 </div>
 
 <div className='flex flex-row items-center text-start gap-4 md:gap-10'>
-<img src={Pic4} alt='logo' className='w-[70px]   md:w-[200px] h-auto' />
+<img src={Pic4} alt='logo' className='w-[80px]   md:w-[200px] h-auto' />
 < div className="flex flex-col gap-1 md:gap-6 ">
     
-<h1 className='text-white text-lg md:text-5xl'>Payment Solutions for everyone</h1>
-<p className='text-[#F3F3F399] text-lg md:text-4xl'>Pay online withease</p>
+<h1 className='text-white text-md md:text-5xl'>Payment Solutions for everyone</h1>
+<p className='text-[#F3F3F399] text-md md:text-4xl'>Pay online withease</p>
    
     </div>
 </div>
@@ -106,7 +106,7 @@ Exchange Rate
 {/* SOCIAL SECTION STARTS */}
 <div className='flex flex-row flex-1 text-white ml-5 md:gap-16 md:ml-20 md:mt-30  '>
       <img src={Rectangle} loading="eager" alt='rectangle' className='xl:w-[550px] lg:w-96 sm:w-60 w-36   lg:h-auto sm:h-96 h-64' />
-      <div className="flex flex-col justify-start items-start h-screen xl:text-7xl lg:text-5xl sm:text-4xl text-lg text-left font-semibold md:gap-16 gap-5 font-sans pl-5">
+      <div className="flex flex-col justify-start items-start h-screen xl:text-7xl lg:text-5xl sm:text-4xl text-md text-left font-semibold md:gap-16 gap-5 font-sans pl-5">
         <h1 className=''>Stay in Touch</h1>
         <div className="flex flex-row xl:gap-20 lg:gap-12 sm:gap-10 gap-3 xl:text-7xl lg:text-5xl sm:text-5xl text-2xl">
           <FaTwitter />
