@@ -33,7 +33,7 @@ const HomePage = () => {
      {/* CONVERT SECTION STARTS */}
 <div className='flex flex-col justify-center items-center my-24 px-[20px] md:gap-10 gap-10 md:px-16 xl:px-[190px] lg:px-[100px] sm:px-20'>
 
-    <div className=' text-white  text-3xl sm:text-6xl lg:text-8xl xl:text-9xl righteous-regular'>
+    <div className=' text-white  text-4xl sm:text-6xl lg:text-8xl xl:text-9xl righteous-regular'>
  <h1 className=' '>
  Convert and 
  </h1>
