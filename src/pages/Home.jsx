@@ -56,7 +56,7 @@ Exchange Rate
     {/* CONVERT SECTION ENDS */}
 
    {/* PRO CONS SECTION STARTS  */}
-<div className='flex flex-1 flex-col my-24 md:my-32 ml-5 md:ml-20 gap-5 md:gap-14'>
+<div className='flex flex-1 flex-col my-32 md:my-32 ml-5 md:ml-20 gap-5 md:gap-14'>
 
 <div className='flex flex-row items-center text-start gap-4 md:gap-10'>
 <img src={Pic1} alt='logo' className='w-[70px]   md:w-[200px] h-auto' />
@@ -120,7 +120,7 @@ Exchange Rate
 {/* SOCIAL SECTION ENDS */}
 
 {/* LICSENSE SECTION STARTS */}
-<div className="flex-col  text-left  md:my-20 my-5 mt-[-280px] text-xl md:text-4xl space-y-5 lg:mr-60 ml-3 md:ml-20 mr-2">
+<div className="flex-col  text-left  md:my-20 my-5 mt-[-550px] text-xl md:text-4xl space-y-5 lg:mr-60 ml-3 md:ml-20 mr-2">
 
 <p className='text-[#F3F3F399]'>@2024 unionsend inc.</p>
 <p className='text-[#F3F3F399] leading-[2]'>
