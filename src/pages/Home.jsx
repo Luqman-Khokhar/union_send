@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { TiThMenu } from 'react-icons/ti';
 import { FaPlay } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
@@ -11,7 +11,24 @@ import Pic3 from '../images/Ellipse 3.png';
 import Pic4 from '../images/Ellipse 4.png';
 import Rectangle from '../images/Rectangle 1.png';
 import BG from '../images/background.png';
+import Loader from '../components/loader';
 const HomePage = () => {
+
+  // const [loading, setLoading] = useState(true);
+
+  // useEffect(() => {
+
+  //   const timer = setTimeout(() => {
+  //     setLoading(false);
+  //   }, 1000); 
+
+  //   return () => clearTimeout(timer);
+  // }, []);
+
+  // if (loading) {
+  //   return <Loader />;
+  // }
+
   return (
 
     <div className='relative'>
@@ -93,7 +110,7 @@ Exchange Rate
 < div className="flex flex-col gap-1 md:gap-6 ">
     
 <h1 className='text-white text-md md:text-5xl'>Payment Solutions for everyone</h1>
-<p className='text-[#F3F3F399] text-md md:text-4xl'>Pay online withease</p>
+<p className='text-[#F3F3F399] text-md md:text-4xl'>Pay online with ease</p>
    
     </div>
 </div>
@@ -119,16 +136,16 @@ Exchange Rate
     </div>
 {/* SOCIAL SECTION ENDS */}
 
-{/* LICSENSE SECTION STARTS */}
+{/* LICENSE SECTION STARTS */}
 <div className="flex-col  text-left  md:my-20 my-10 mt-[-300px] text-xl md:text-4xl space-y-5 lg:mr-60 ml-3 md:ml-20 mr-2">
 
 <p className='text-[#F3F3F399]'>@2024 unionsend inc.</p>
 <p className='text-[#F3F3F399] leading-[2]'>
-  UnionSend is regulated and authorised to conduct money transmission in multiple countries around the world. Which is regulated in each country that it operates in.
+  UnionSend is regulated and authorized to conduct money transmission in multiple countries around the world. Which is regulated in each country that it operates in.
 </p>
 <p className='text-[#F3F3F399]'>Banking services provided by unionsend bank.</p>
 </div>
-{/* LICSENSE SECTION ENDS */}
+{/* LICENSE SECTION ENDS */}
 
 
 <button className="md:px-24 md:py-8 md:mt-24 md:mb-10 px-10 py-4 my-16  min-w-[120px] rounded-2xl text-center text-white bg-[#2097FB] border border-[#2097FB]  active:text-[#2097FB]-500 hover:bg-transparent hover:text-[#2097FB] focus:outline-none focus:ring">
