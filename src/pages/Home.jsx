@@ -17,12 +17,12 @@ const HomePage = () => {
     <div className='relative'>
 
     {/* Background Image */}
-    <img src={BG} alt='background'  loading="eager" className='absolute top-80 left-0  z-0 '   />
+    <img  loading='lazy' src={BG} alt='background'    className='absolute top-80 left-0  z-0 '   />
     <div className=' px-2 py-5 md:py-10 md:px-5 sm:px-2 sm:py-10 relative z-10'>
 
         {/* MENU BAR STARTS */}
     <div className='flex flex-row flex-1 justify-around items-center px-8 md:px-16 lg:px-24 lg:my-5 '>
-      <img src={Logo} alt='logo' className='flex-none w-32 lg:w-80 sm:w-32 md:w-60 ' />
+      <img  loading='lazy' src={Logo} alt='logo' className='flex-none w-32 lg:w-80 sm:w-32 md:w-60 ' />
       <div className='flex-grow' />
       <div className='flex-none bg-[#2097fb] rounded-full p-2'>
       <TiThMenu className='text-white lg:text-4xl md:text-3xl text-md' />
@@ -59,7 +59,7 @@ Exchange Rate
 <div className='flex flex-1 flex-col my-32 md:my-32 px-2 md:ml-20 gap-12 md:gap-14'>
 
 <div className='flex flex-row items-center text-start gap-4 md:gap-10'>
-<img src={Pic1} alt='logo' className='w-[80px]   md:w-[200px] h-auto' />
+<img  loading='lazy' src={Pic1} alt='logo' className='w-[80px]   md:w-[200px] h-auto' />
 < div className="flex flex-col gap-1 md:gap-6 ">
     
         <h1 className='text-white text-md md:text-5xl'>Why choose unionsend</h1>
@@ -69,7 +69,7 @@ Exchange Rate
 </div>
 
 <div className='flex flex-row items-center text-start gap-4 md:gap-10'>
-<img src={Pic2} alt='logo' className='w-[80px]   md:w-[200px] h-auto' />
+<img  loading='lazy' src={Pic2} alt='logo' className='w-[80px]   md:w-[200px] h-auto' />
 < div className="flex flex-col gap-1 md:gap-6 ">
     
 <h1 className='text-white text-md md:text-5xl'>What you can do with union send</h1>
@@ -79,7 +79,7 @@ Exchange Rate
 </div>
 
 <div className='flex flex-row items-center text-start gap-4 md:gap-10'>
-<img src={Pic3} alt='logo' className='w-[80px]   md:w-[200px] h-auto' />
+<img  loading='lazy' src={Pic3} alt='logo' className='w-[80px]   md:w-[200px] h-auto' />
 < div className="flex flex-col gap-1 md:gap-6 ">
   
 <h1 className='text-white text-md md:text-5xl'>What people are saying about unionsend</h1>
@@ -89,7 +89,7 @@ Exchange Rate
 </div>
 
 <div className='flex flex-row items-center text-start gap-4 md:gap-10'>
-<img src={Pic4} alt='logo' className='w-[80px]   md:w-[200px] h-auto' />
+<img  loading='lazy' src={Pic4} alt='logo' className='w-[80px]   md:w-[200px] h-auto' />
 < div className="flex flex-col gap-1 md:gap-6 ">
     
 <h1 className='text-white text-md md:text-5xl'>Payment Solutions for everyone</h1>
@@ -105,7 +105,7 @@ Exchange Rate
 
 {/* SOCIAL SECTION STARTS */}
 <div className='flex flex-row flex-1 text-white ml-5 md:gap-16 md:ml-20 md:mt-30 '>
-      <img src={Rectangle} loading="eager" alt='rectangle' className='xl:w-[550px] lg:w-96 sm:w-60 w-36    lg:h-auto sm:h-96 h-80' />
+      <img  loading='lazy' src={Rectangle}   alt='rectangle' className='xl:w-[550px] lg:w-96 sm:w-60 w-36    lg:h-auto sm:h-96 h-80' />
       <div className="flex flex-col justify-start items-start h-screen xl:text-7xl lg:text-5xl sm:text-4xl text-center text-3xl md:text-left font-semibold md:gap-16 gap-8 font-sans pl-5">
         <h1 className=''>Stay in Touch</h1>
         <div className="flex flex-row xl:gap-20 lg:gap-12 sm:gap-10 gap-3 xl:text-7xl lg:text-5xl sm:text-5xl text-3xl sm:pl-0 pl-6 ">
